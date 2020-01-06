@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wenwo.data.statistics.dao.mysql.CommunityDailyDataMapper">
+  <resultMap id="BaseResultMap" type="com.wenwo.data.statistics.entity.mysql.CommunityDailyData">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="community_id" jdbcType="VARCHAR" property="communityId" />
+    <result column="doctor_num" jdbcType="INTEGER" property="doctorNum" />
+    <result column="user_num" jdbcType="INTEGER" property="userNum" />
+    <result column="invitation_produce_content_num" jdbcType="INTEGER" property="invitationProduceContentNum" />
+    <result column="post_content_num" jdbcType="INTEGER" property="postContentNum" />
+    <result column="health_num" jdbcType="INTEGER" property="healthNum" />
+    <result column="counsel_num" jdbcType="INTEGER" property="counselNum" />
+    <result column="appointment_num" jdbcType="INTEGER" property="appointmentNum" />
+    <result column="del_flag" jdbcType="INTEGER" property="delFlag" />
+    <result column="create_date" jdbcType="DATE" property="createDate" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+  </resultMap>
+
+
+</mapper>

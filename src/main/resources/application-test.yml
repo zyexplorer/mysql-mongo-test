@@ -1,0 +1,13 @@
+spring:   
+   datasource: 
+      driver: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://192.168.1.29:3306/datacollection?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+      username: doctor
+      password: doctor
+   data:
+      mongodb:
+         uri: mongodb://192.168.254.101:30000/database
+               
+mybatis:
+   mapper-locations: classpath:mapper/*.xml   
+         

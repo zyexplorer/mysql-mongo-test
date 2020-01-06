@@ -1,0 +1,7 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: wenwo-data-statistics 
+  profiles:
+    active: dev
